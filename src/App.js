@@ -9,6 +9,7 @@ function App() {
       <Component2 nama="Robby"/>
       <Component2 nama="Eka"/>
       <Tick/>
+      <Tick/>
     </div>
   );
 }
