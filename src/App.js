@@ -5,9 +5,17 @@ import Toggle from './components/toggle';
 import ToggleWithParam from './components/toggleWithParam';
 import LoginControl from './components/loginControl';
 import MailBox from './components/mailbox';
+import NumberList from './components/numberList';
 
 function App() {
   let id = 3;
+  const numbers = [
+    {'id':1,'value':'robby'},
+    {'id':2,'value':'prawira'},
+    {'id':3,'value':'eka'},
+    {'id':4,'value':'pasha'},
+    {'id':5,'value':'romadhon'}
+  ];
   const unreadMessage = ['helo','hello','hellow'];
   return (
     <div>
@@ -26,6 +34,8 @@ function App() {
       <h3>================================</h3>
       <LoginControl isLoggedIn={false}/>
       <MailBox unreadMessage={unreadMessage}/>
+      <h3>================================</h3>
+      <NumberList numbers={numbers}/>
     </div>
   );
 }
