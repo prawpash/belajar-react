@@ -6,6 +6,8 @@ import ToggleWithParam from './components/toggleWithParam';
 import LoginControl from './components/loginControl';
 import MailBox from './components/mailbox';
 import NumberList from './components/numberList';
+import NameForm from './components/nameForm';
+import FormMulti from './components/formMulti';
 
 function App() {
   let id = 3;
@@ -36,6 +38,10 @@ function App() {
       <MailBox unreadMessage={unreadMessage}/>
       <h3>================================</h3>
       <NumberList numbers={numbers}/>
+      <h3>================================</h3>
+      <NameForm/>
+      <h3>================================</h3>
+      <FormMulti/>
     </div>
   );
 }
