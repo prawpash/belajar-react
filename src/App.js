@@ -9,6 +9,7 @@ import NumberList from './components/numberList';
 import NameForm from './components/nameForm';
 import FormMulti from './components/formMulti';
 import CalculatorTemp from './components/calcTemp';
+import SignUpDialog from './components/signupDialog';
 
 function App() {
   let id = 3;
@@ -45,6 +46,8 @@ function App() {
       <FormMulti/>
       <h3>================================</h3>
       <CalculatorTemp/>
+      <h3>================================</h3>
+      <SignUpDialog/>
     </div>
   );
 }
