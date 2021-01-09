@@ -8,6 +8,7 @@ import MailBox from './components/mailbox';
 import NumberList from './components/numberList';
 import NameForm from './components/nameForm';
 import FormMulti from './components/formMulti';
+import CalculatorTemp from './components/calcTemp';
 
 function App() {
   let id = 3;
@@ -42,6 +43,8 @@ function App() {
       <NameForm/>
       <h3>================================</h3>
       <FormMulti/>
+      <h3>================================</h3>
+      <CalculatorTemp/>
     </div>
   );
 }
